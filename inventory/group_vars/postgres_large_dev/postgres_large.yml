@@ -1,0 +1,15 @@
+host_configurations:
+   large:
+      cpu: 8
+      ram: 64
+      storage: 
+         data: 300
+         backup: 150
+         logs: 25
+         audit: 25
+         temp: 50
+         keyring: 5
+mounts:
+  - "home"
+  - "boot"
+  - "var"

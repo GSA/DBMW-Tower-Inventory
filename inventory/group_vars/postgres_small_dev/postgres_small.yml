@@ -1,0 +1,18 @@
+host_configurations:
+   cpu: 2
+   ram: 8
+   storage:
+      data: 20
+      home: 20
+      var: 30
+      boot: .1
+      backup: 20
+      logs: 10
+      audit: 5
+      temp: 10
+      keyring: 5
+      opt/sw/dbinstall: 20
+mounts:
+#  - "pgdata"
+  - "opt/sw/dbinstall"
+

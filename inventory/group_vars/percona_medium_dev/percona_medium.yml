@@ -1,0 +1,17 @@
+host_configurations:
+   cpu: 4
+   ram: 16
+   storage:
+      data: 100
+      home: 15
+      boot: 0
+      var: 40
+      backup: 50
+      logs: 10
+      audit: 10
+      temp: 20
+      keyring: 5 
+mounts:
+  - "home"
+  - "boot"
+  - "var"
